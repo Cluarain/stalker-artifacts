@@ -1,5 +1,4 @@
 {
-  "actor_terrain": {},
   "actor": {
     "GroupControlSection": "spawn_group",
     "$spawn": "\"actor\"",
@@ -82,49 +81,13 @@
     "transparency_threshold": "0.4",
     "still_visible_time": "5000"
   },
-  "actor_immunities_gd_novice": {
-    "burn_immunity": "0.5",
-    "strike_immunity": "0.5",
-    "shock_immunity": "0.5",
-    "wound_immunity": "0.5",
-    "radiation_immunity": "0.5",
-    "telepatic_immunity": "0.5",
-    "chemical_burn_immunity": "0.5",
-    "explosion_immunity": "0.1",
-    "fire_wound_immunity": "0.5"
-  },
-  "actor_immunities_gd_stalker": {
-    "burn_immunity": "0.65",
-    "strike_immunity": "0.65",
-    "shock_immunity": "0.65",
-    "wound_immunity": "0.65",
-    "radiation_immunity": "0.65",
-    "telepatic_immunity": "0.65",
-    "chemical_burn_immunity": "0.65",
-    "explosion_immunity": "0.3",
-    "fire_wound_immunity": "0.65"
-  },
-  "actor_immunities_gd_veteran": {
-    "burn_immunity": "0.8",
-    "strike_immunity": "0.8",
-    "shock_immunity": "0.8",
-    "wound_immunity": "0.8",
-    "radiation_immunity": "0.8",
-    "telepatic_immunity": "0.8",
-    "chemical_burn_immunity": "0.8",
-    "explosion_immunity": "0.6",
-    "fire_wound_immunity": "0.8"
-  },
-  "actor_immunities_gd_master": {
-    "burn_immunity": "1.0",
-    "strike_immunity": "1.0",
-    "shock_immunity": "1.0",
-    "wound_immunity": "1.0",
-    "radiation_immunity": "1.0",
-    "telepatic_immunity": "1.0",
-    "chemical_burn_immunity": "1.0",
-    "explosion_immunity": "1.0",
-    "fire_wound_immunity": "1.0"
+  "actor_animation": {
+    "fwd_l_strafe_yaw": "45",
+    "back_l_strafe_yaw": "45",
+    "fwd_r_strafe_yaw": "45",
+    "back_r_strafe_yaw": "45",
+    "l_strafe_yaw": "0",
+    "r_strafe_yaw": "0"
   },
   "actor_condition": {
     "satiety_v": "0.000015",
@@ -222,14 +185,6 @@
     "bip01_r_foot": "1.0, 6, 1.5",
     "bip01_r_toe0": "1.0, 6, 1.5"
   },
-  "actor_animation": {
-    "fwd_l_strafe_yaw": "45",
-    "back_l_strafe_yaw": "45",
-    "fwd_r_strafe_yaw": "45",
-    "back_r_strafe_yaw": "45",
-    "l_strafe_yaw": "0",
-    "r_strafe_yaw": "0"
-  },
   "actor_hit_snds": {
     "burn": "actor\\pain1,actor\\pain2,actor\\pain3",
     "shock": "actor\\pain1,actor\\pain2,actor\\pain3",
@@ -242,5 +197,50 @@
     "explosion": "affects\\tinnitus3a",
     "wound_2": "actor\\hurt1,actor\\hurt2,actor\\hurt3,actor\\hurt4",
     "physic_strike": "actor\\pain1,actor\\pain2,actor\\pain3"
-  }
+  },
+  "actor_immunities_gd_master": {
+    "burn_immunity": "1.0",
+    "strike_immunity": "1.0",
+    "shock_immunity": "1.0",
+    "wound_immunity": "1.0",
+    "radiation_immunity": "1.0",
+    "telepatic_immunity": "1.0",
+    "chemical_burn_immunity": "1.0",
+    "explosion_immunity": "1.0",
+    "fire_wound_immunity": "1.0"
+  },
+  "actor_immunities_gd_novice": {
+    "burn_immunity": "0.5",
+    "strike_immunity": "0.5",
+    "shock_immunity": "0.5",
+    "wound_immunity": "0.5",
+    "radiation_immunity": "0.5",
+    "telepatic_immunity": "0.5",
+    "chemical_burn_immunity": "0.5",
+    "explosion_immunity": "0.1",
+    "fire_wound_immunity": "0.5"
+  },
+  "actor_immunities_gd_stalker": {
+    "burn_immunity": "0.65",
+    "strike_immunity": "0.65",
+    "shock_immunity": "0.65",
+    "wound_immunity": "0.65",
+    "radiation_immunity": "0.65",
+    "telepatic_immunity": "0.65",
+    "chemical_burn_immunity": "0.65",
+    "explosion_immunity": "0.3",
+    "fire_wound_immunity": "0.65"
+  },
+  "actor_immunities_gd_veteran": {
+    "burn_immunity": "0.8",
+    "strike_immunity": "0.8",
+    "shock_immunity": "0.8",
+    "wound_immunity": "0.8",
+    "radiation_immunity": "0.8",
+    "telepatic_immunity": "0.8",
+    "chemical_burn_immunity": "0.8",
+    "explosion_immunity": "0.6",
+    "fire_wound_immunity": "0.8"
+  },
+  "actor_terrain": {}
 }
